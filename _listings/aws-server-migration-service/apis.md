@@ -27,7 +27,7 @@ apis:
   tags: Connectors
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/connectors/master/_listings/aws-server-migration-service/action-disassociateconnector-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/connectors/master/_listings/aws-server-migration-service/action-getconnectors-get.md
 x-common:
 - type: x-command-line-interface
   url: http://docs.aws.amazon.com/server-migration-service/latest/userguide/cli_workflow.html
