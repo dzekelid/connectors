@@ -1,8 +1,10 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Server Migration Service API
+  title: AWS Server Migration Service API Get Connectors
   version: 1.0.0
+  description: The get-connectors API returns a list of connectors that are registered
+    with the Server Migration Service.
 schemes:
 - http
 produces:
