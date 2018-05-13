@@ -28,16 +28,16 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/connectors/master/_listings/aws-server-migration-service/action-getconnectors-get.md
-- name: AWS Server Migration Service API Disassociate Connector
-  description: The disassociate-connector API will disassociate a connector from the
-    Server Migration Service, rendering it unavailable to support replication jobs.
+- name: AWS Server Migration Service API Get Connectors
+  description: The get-connectors API returns a list of connectors that are registered
+    with the Server Migration Service.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_AmazonEC2_AMI.png
   humanURL: https://aws.amazon.com/server-migration-service/
   baseURL: http:://{host}//
   tags: Connectors
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/connectors/master/_listings/aws-server-migration-service/action-disassociateconnector-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/connectors/master/_listings/aws-server-migration-service/action-getconnectors-get.md
 x-common:
 - type: x-command-line-interface
   url: http://docs.aws.amazon.com/server-migration-service/latest/userguide/cli_workflow.html
