@@ -1,8 +1,10 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Server Migration Service API
+  title: AWS Server Migration Service API Disassociate Connector
   version: 1.0.0
+  description: The disassociate-connector API will disassociate a connector from the
+    Server Migration Service, rendering it unavailable to support replication jobs.
 schemes:
 - http
 produces:
